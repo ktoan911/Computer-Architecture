@@ -1,7 +1,7 @@
 .data
-A: .word 1,2,3,4,5
+A: .word 1,-2,3,4,5,4
 Aend: .word
-B: .word  5,4,3,2,21
+B: .word  5 ,4,4,3,-2,1, 2
 Bend: .word
 equal_prompt: .asciiz "2 mang bang nhau"
 not_equal_prompt: .asciiz "2 mang khong bang nhau"
